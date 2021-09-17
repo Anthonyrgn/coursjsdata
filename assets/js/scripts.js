@@ -58,4 +58,47 @@ let data = [
 // -----------------------------
 // LES STRUCTURES DE CONTROLE
 
+// if (data[0].age > data[1].age) {
+//   console.log(data[0].pseudo + " est plus agé que " + data[1].pseudo);
+// } else {
+//   console.log("faux");
+// }
+
+// // if (valeur a tester)
+//       valeur si vrai
+//   else
+//       valeur si faux
+
+// WHILE "TANT QUE"
+
+// let w = 0;
+
+// while (w < 15 ){
+//   w++
+//   console.log("La valeur de w est de : " + w);
+// }
+
+// Do While
+
+// let d = 0;
+
+// do {
+//   d++;
+//   console.log(d);
+// } while (d < 5);
+
+// BOUCLES FOR
+
+for (const user of data) {
+  document.body.innerHTML += `<li>${user.pseudo} - ${user.age}</li>`;
+}
+console.log(data.length);
+
+// On déclare la valeur de i | jusqu'ou on boucle | on incrémente i si la condition 2 n'est pas remplie
+for (i = 0; i < data.length; i++) {
+  // console.log(i);
+  // console.log(data[i].techno);
+  // document.body.innerHTML += "<h2>" + data[i].pseudo + "</h2>";
+}
+
 
