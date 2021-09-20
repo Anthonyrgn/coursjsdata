@@ -127,3 +127,47 @@ document.body.addEventListener("click", (e) => {
         null;
   }
 });
+
+//--------------------------------------------------
+// LES METHODES STRING 
+
+let string2 = "Javascript est un langage orienté objet";
+
+// console.log(typeof string2);
+// console.log(eval("1" + 2));
+// console.log(eval(parseInt("1") + 2)); (Change le string en number);
+// console.log(isNaN(string)); Interroge si c'est un chiffre true/false
+// console.log(string2.length); (Calcule la longueur des chaines caractères);
+// console.log(string2[string2.length - 1]); selectionne le dernier caractères;
+
+// console.log(string2.indexOf("orienté"));
+// console.log(string2.indexOf('x')); RETOURNE -1 si il ne connait pas
+
+// let newString = string2.slice(5, 17); SLICE = Decoupe chaine de caractère
+// console.log(newString);
+
+// console.log(string2.split("i")); PERMET DE REDECOMPOSER 
+
+// console.log(string2.toUpperCase()); 
+// console.log(string2.toLowerCase());
+
+// console.log(string2.replace("Javascript", "PHP")); REMPLACE LE PREMIER MOT PAR LE SECOND
+
+// -----------------------------------------------------------
+// LES METHODES NUMBER
+
+let number2 = 42.1234;
+let numberString = "42.12 est un chiffre"
+// console.log(number2.toFixed(2)); GARDER UN CERTAINS NOMBRE DE CHIFFRE APRES LA VIRGULE
+
+// console.log(parseInt("43"));
+// console.log(parseInt(numberString)); GARDE UN CHIFFRE
+// console.log(parseFloat(numberString)); GARDE UN CHIFFRE MEME APRES LA VIRGULE
+
+// console.log(Math.PI);
+// console.log(Math.round(4.5)); ARRONDI AU PLUS PRES 
+// console.log(Math.floor(4.9)); ARRONDI A L'INFERIEUR
+// console.log(Math.ceil(4.1)); ARRONDI AU PLUS HAUT 
+
+
+
