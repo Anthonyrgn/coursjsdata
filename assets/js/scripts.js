@@ -101,4 +101,29 @@ for (i = 0; i < data.length; i++) {
   // document.body.innerHTML += "<h2>" + data[i].pseudo + "</h2>";
 }
 
+// LES SWITCH --------------
 
+
+document.body.addEventListener("click", (e) => {
+//   console.log(e.target.id);
+
+  switch (e.target.id) {
+    case "javascript":
+      document.body.style.background = "yellow";
+      break;
+  }
+
+  switch (e.target.id) {
+    case "php":
+      document.body.style.background = "red";
+      break;
+  }
+
+  switch (e.target.id) {
+    case "python":
+      document.body.style.background = "blue";
+      break;
+    default:
+        null;
+  }
+});
